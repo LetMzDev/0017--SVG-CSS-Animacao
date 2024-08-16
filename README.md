@@ -8,3 +8,6 @@
 
 ## *App*
 - [Illustrator](https://www.adobe.com/br/products/illustrator/free-trial-download.html)
+
+## Outros
+- [Intensivo de Namespaces](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Namespaces_Crash_Course)
