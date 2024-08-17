@@ -1,0 +1,11 @@
+body
+{
+	margin: 0;
+	background-color: #FFEAD4;
+	overflow-x: hidden;
+}
+
+.container-header
+{
+	width: 100vw;
+}
