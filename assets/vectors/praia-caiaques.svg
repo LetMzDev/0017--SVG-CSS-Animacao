@@ -216,12 +216,40 @@
 				animation: movimento-caiaques-1e2 2.5s ease-in-out infinite alternate;
 			}
 
+			#caiaque-3, #caiaque-4
+			{
+				animation: movimento-caiaques-3e4 3.5s ease-in-out infinite alternate;
+			}
+
+			#caiaque-5
+			{
+				animation: movimento-caiaque-5 3.0s ease-in-out infinite alternate;
+			}
+
 			@keyframes movimento-caiaques-1e2
 			{
 				/* Mover do Ponto A para o Ponto B */
 				to
 				{
 					transform: translate(15px, -15px);
+				}
+			}
+
+			@keyframes movimento-caiaques-3e4
+			{
+				/* Mover do Ponto A para o Ponto B */
+				to
+				{
+					transform: translate(-12px, -9px);
+				}
+			}
+
+			@keyframes movimento-caiaque-5
+			{
+				/* Mover do Ponto A para o Ponto B */
+				to
+				{
+					transform: translate(10px, -18px);
 				}
 			}
 
