@@ -9,3 +9,12 @@ body
 {
 	width: 100vw;
 }
+
+.lett-header
+{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	width: 80%;
+	margin-top: 10%;
+}
