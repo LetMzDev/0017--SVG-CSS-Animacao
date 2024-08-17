@@ -17,4 +17,15 @@ body
 	transform: translate(-50%);
 	width: 80%;
 	margin-top: 10%;
+	fill: transparent;
+	animation: lett-preenchimento 0.7s ease-in-out forwards 1.5s;
+}
+
+/* Título 'Verão */
+@keyframes lett-preenchimento
+{
+	to
+	{
+		fill: #BE253F;
+	}
 }
