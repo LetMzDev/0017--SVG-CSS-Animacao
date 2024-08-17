@@ -18,7 +18,16 @@ body
 	width: 80%;
 	margin-top: 10%;
 	fill: transparent;
-	animation: lett-preenchimento 0.7s ease-in-out forwards 1.5s;
+	animation: lett-preenchimento 0.7s ease-in-out forwards 5.0s;
+}
+
+.lett-header path
+{
+	stroke-width: 2px;
+	stroke: #BE253F;
+	stroke-dasharray: 3000;
+	stroke-dashoffset: 3000;
+	animation: lett-tracado 5.0s ease-in-out forwards 2.0s;
 }
 
 /* Título 'Verão */
@@ -27,5 +36,14 @@ body
 	to
 	{
 		fill: #BE253F;
+	}
+}
+
+/* Título traçado */
+@keyframes lett-tracado
+{
+	to
+	{
+		stroke-dashoffset: 0;
 	}
 }
