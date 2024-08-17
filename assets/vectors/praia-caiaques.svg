@@ -207,11 +207,26 @@
 				clip-path: url(#clip-path-22);
 			}
 		</style>
+
 		<style>
 
+			#caiaque-1, #caiaque-2
+			{
+				/* animation: nome_animação tempo tipo_de_animação quantas_vezes_animar direção_da_animação*/
+				animation: movimento-caiaques-1e2 2.5s ease-in-out infinite alternate;
+			}
 
+			@keyframes movimento-caiaques-1e2
+			{
+				/* Mover do Ponto A para o Ponto B */
+				to
+				{
+					transform: translate(15px, -15px);
+				}
+			}
 
 		</style>
+
 		<linearGradient id="linear-gradient" x1="700" y1="588.28" x2="700" y2="375.14"
 			gradientTransform="translate(0 384.72)" gradientUnits="userSpaceOnUse">
 			<stop offset="0.19" stop-color="#ffead4" />
