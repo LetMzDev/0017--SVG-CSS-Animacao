@@ -4,5 +4,5 @@ import { Cards } from './cards.js';
 window.onload = () =>
 {
 	let anima_Cards = new Cards ();
-	document.addEventListener ( 'scroll', anima_Cards.calculo_Scroll );
+	document.addEventListener ( 'scroll', anima_Cards.calculo_Scroll.bind ( anima_Cards ));
 }
