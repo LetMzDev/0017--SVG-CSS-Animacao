@@ -5,7 +5,11 @@ class Cards
 		this.posicao_Section_Dicas = document.getElementById ( 'section-dicas' );
 		this.card_Esq = document.querySelector ( ".card-esq");
 		this.card_Dir = document.querySelector ( ".card-dir");
+	}
 
+	scroll_Cards ()
+	{
+		window.requestAnimationFrame ( this.calculo_Scroll.bind ( this ));
 	}
 
 	calculo_Scroll ()
