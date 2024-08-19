@@ -20,6 +20,8 @@ class Cards
 
 		if ( posicao >= 25 )
 		{
+			// this.card_Esq.style.transform = `rotateY( ${( -posicao + 20 ) / 2 }deg)`;
+			// this.card_Dir.style.transform = `rotateY( ${( posicao + 20 ) / 2 }deg)`;
 			this.card_Esq.style.transform = `translate( ${( -posicao + 25 ) / 10 }% )`;
 			this.card_Dir.style.transform = `translate( ${( posicao - 25 ) / 10 }% )`;
 		}
