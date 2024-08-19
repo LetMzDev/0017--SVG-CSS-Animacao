@@ -70,6 +70,21 @@ p
 	margin: 20px;
 }
 
+.lett-footer
+{
+	width: 60%;
+	fill: rgba(255, 255, 255, 0.826);
+	opacity: 0.7;
+	position: absolute;
+	left: 20%;
+	margin-top: 20%;
+}
+
+.container-footer
+{
+	position: relative;
+}
+
 /* Título 'Verão */
 @keyframes lett-preenchimento
 {
