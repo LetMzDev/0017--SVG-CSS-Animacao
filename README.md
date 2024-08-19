@@ -5,6 +5,7 @@
 
 ## Imagens
 - [Vecteezy](https://pt.vecteezy.com/)
+- [Ícones](https://fontawesome.com/)
 
 ## *App*
 - [Illustrator](https://www.adobe.com/br/products/illustrator/free-trial-download.html)
