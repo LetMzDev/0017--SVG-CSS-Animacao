@@ -10,7 +10,9 @@ ___
 ___
 ## Biblioteca
 - [GreenSock](https://gsap.com/)
--[Documentação Tween](https://gsap.com/docs/v3/GSAP/Tween)
+- [Documentação Tween](https://gsap.com/docs/v3/GSAP/Tween)
+- [Mais documentação](https://gsap.com/resources/get-started/)
+- [Loaders Animados](https://rossener.com/loaders-animados-com-gsap-parte-1/)
 ___
 ## *App*
 - [Illustrator](https://www.adobe.com/br/products/illustrator/free-trial-download.html)
