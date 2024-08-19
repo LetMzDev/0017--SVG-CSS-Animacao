@@ -1,5 +1,6 @@
 import { Cards } from './cards.js';
 import { Icones } from './icones.js';
+import { Footer } from './footer.js';
 
 // Iniciar no carregamento da tela
 window.onload = () =>
@@ -9,4 +10,7 @@ window.onload = () =>
 
 	const icones = new Icones ();
 	icones.anima_Icones ();
+
+	const footer = new Footer ();
+	footer.efeito_Onda ();
 }

@@ -12,7 +12,8 @@ ___
 ### SVG
 - [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp)
 - [MDN](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Element)
-
+- [Filtros](https://tympanus.net/codrops/2019/01/15/svg-filters-101/)
+___
 ### GreenSock
 - [GreenSock](https://gsap.com/)
 - [Documentação Tween](https://gsap.com/docs/v3/GSAP/Tween)
