@@ -211,6 +211,16 @@
 
 		<svg class="lett-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640.01 199.3">
 			<title>lett-footer</title>
+
+			<!-- Definições -->
+			<defs>
+				<filter id="efeito-onda">
+					<feTurbulence id="filtro-turbulencia" type="turbulence" baseFrequency="0.05" numOctaves="2"
+						result="turbulence" />
+					<feDisplacementMap in="SourceGraphic" in2="turbulence" scale="10" />
+				</filter>
+			</defs>
+
 			<g id="vetores-texto" filter="url(#efeito-onda)">
 				<g id="exclam">
 					<path

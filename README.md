@@ -9,6 +9,11 @@ ___
 - [Ícones](https://fontawesome.com/)
 ___
 ## Biblioteca
+### SVG
+- [W3Schools](https://www.w3schools.com/graphics/svg_intro.asp)
+- [MDN](https://developer.mozilla.org/pt-BR/docs/Web/SVG/Element)
+
+### GreenSock
 - [GreenSock](https://gsap.com/)
 - [Documentação Tween](https://gsap.com/docs/v3/GSAP/Tween)
 - [Mais documentação](https://gsap.com/resources/get-started/)
