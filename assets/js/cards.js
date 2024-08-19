@@ -16,7 +16,7 @@ class Cards
 	{
 		// Recebe o elemento 'section-dicas' a sua posição Y na tela
 		const posicao = this.posicao_Section_Dicas.getBoundingClientRect()['y'];
-		console.log (posicao);
+		// console.log (posicao);
 
 		if ( posicao >= 25 )
 		{
