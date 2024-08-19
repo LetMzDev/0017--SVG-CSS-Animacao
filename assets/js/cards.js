@@ -18,10 +18,10 @@ class Cards
 		const posicao = this.posicao_Section_Dicas.getBoundingClientRect()['y'];
 		console.log (posicao);
 
-		if ( posicao <= 293 )
+		if ( posicao >= 25 )
 		{
-			this.card_Esq.style.transform = `translate( ${-posicao}% )`;
-			this.card_Dir.style.transform = `translate( ${posicao}% )`;
+			this.card_Esq.style.transform = `translate( ${ -posicao + 25 }% )`;
+			this.card_Dir.style.transform = `translate( ${ posicao - 25 }% )`;
 		}
 	}
 }
